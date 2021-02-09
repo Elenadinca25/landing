@@ -83,7 +83,7 @@ h2 {
     height: 230px;
     object-fit: contain;
     margin: 0;
-    /*border-radius: 6px;*/
+    border-radius: 3px;
    /* box-shadow: 0 0 5px rgba(0,0,0,0.3);*/
   }
 
