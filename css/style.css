@@ -33,8 +33,6 @@
 }
 
 
-
-
 /* Utilities */
 body {
   margin: 0;
@@ -68,8 +66,8 @@ h2 {
 
   .card {
     width: 140px;
-   padding-right:0px !important;
-   padding-left:0px !important;
+    padding-right:0px !important;
+    padding-left:0px !important;
   }
 
   .card img {
