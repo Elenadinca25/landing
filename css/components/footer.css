@@ -1,10 +1,10 @@
 .footer {
     text-align: center;
     padding: 40px;
-    background-color: whitesmoke;
+    background-color: transparent;
     opacity: 0.5;
   }
-  
+
   .footer a {
     font-size: 30px;
     color: hsla(194, 73%, 29%, 0.926);
@@ -14,16 +14,16 @@
     font-size: 30px;
     color: hsla(194, 92%, 25%, 0.337);
   }
-  
+
   .footer p {
     color: grey;
     opacity: 0.5;
   }
-  
+
   .footer .fas {
     color: #BF0F12;
   }
-  
+
   .footer .fas:hover {
     color: #BF0F12;
   }
