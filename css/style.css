@@ -63,6 +63,7 @@ h2 {
     grid-template-columns: 1fr 1fr;
     padding-left: 0px;
     margin: 0;
+    grid-gap: 10px;
   }
 
   .card {
@@ -78,7 +79,7 @@ h2 {
   }
 
   .video {
-    width: 320px;
+    width: 310px;
     height: 200px;
     object-fit: contain;
     margin: 0;
