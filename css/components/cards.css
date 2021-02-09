@@ -1,5 +1,6 @@
 .card img {
     width: 150px;
+    object-fit: cover;
   }
 
   .card p {
