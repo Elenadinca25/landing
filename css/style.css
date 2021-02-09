@@ -57,6 +57,12 @@ h2 {
   opacity: 0.7;
 }
 
+video {
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+}
+
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .cards {
