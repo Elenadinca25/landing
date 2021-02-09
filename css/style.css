@@ -59,6 +59,49 @@ h2 {
 }
 
 
+
+video {
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0px;
+    margin: 0;
+    grid-gap: 6px;
+  }
+
+  .card {
+    width: 150px;
+    padding-right:0px !important;
+    padding-left:0px !important;
+    margin: 0;
+  }
+
+  .card img {
+    width: 150px;
+    object-fit: cover;
+  }
+
+  .video {
+    width: 308px;
+    height: 230px;
+    object-fit: contain;
+    margin: 0;
+    border-radius: 3px;
+   /* box-shadow: 0 0 5px rgba(0,0,0,0.3);*/
+   padding-top: 10px;
+  }
+
+  .banner {
+    margin: 0;
+  }
+}
+
 /* .css-1p616t4 {
   width: 100%;
   height: 100%;
